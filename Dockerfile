@@ -5,6 +5,8 @@ RUN apt-get update && apt-get install -y \
     curl \
     git \
     build-essential \
+    libgl1-mesa-dev \
+    libopencv-dev \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
